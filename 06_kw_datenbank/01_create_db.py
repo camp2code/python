@@ -1,5 +1,9 @@
 import sqlite3
 
+"""
+Aufgabe für KW 24 / 2021 (C2C - Woche 6): https://github.com/bellmann-engineering/python-basic-to-advanced/blob/main/database_basics/database_exercise.md
+
+""""
 # erstellt eine datenbank und gibt die verbindung zur erstellten datenbank zurueck.
 # ./ -> relative pfadangabe, hier: db im selben verzeichnis anlegen wie skript
 db_connection = sqlite3.connect("./fuhrpark.db")
